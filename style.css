@@ -1,0 +1,71 @@
+body{
+    margin: 0px;
+    padding:0px;
+    background-image: url(halofondo.webp);
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-position: center -290px;
+    background-color: rgb(0, 0, 0);
+
+}
+div {
+    margin: 100px auto;
+    width: 853.850px; 
+    height: 11311.5px;
+    padding-top: 24px;
+    padding-left: 36px;
+    font-family: 'Arial', sans-serif; 
+    color: white;
+    background-color: #0e191a;    
+        }
+#dicho{
+   
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    text-align: left;
+}
+#dicho2{
+    font-size: 15px;
+    text-align: left;
+}
+.intros{ 
+    width: 250px;
+    height: auto;
+    display: inline-block;
+}
+.intro img{
+    width: 180px;
+    height: 80px;
+ }
+ div #infext{
+   float: right;
+   margin-left: 18px;
+   margin-bottom: 18px;
+   padding: 0px;
+   width: 268.4px;
+   height: 1225.05px;
+   background-color: white ;
+   text-align: center;
+   color: black
+ }
+ div #infext h3{
+    background-color:#2c403a;
+    color: black;
+ }
+ 
+.intro img:hover{
+   width: 250px;
+   height: 90px;
+}
+.historia p{
+    width: 360px; 
+    padding: 20px;
+}
+p{
+    text-align: left;
+}
+img{
+    padding: 30px;
+}
