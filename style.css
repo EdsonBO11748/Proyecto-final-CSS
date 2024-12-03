@@ -3,14 +3,31 @@ body{
     padding:0px;
     background-image: url(halofondo.webp);
     background-size: cover;
-    height: 100vh;
     background-repeat: no-repeat;
     background-attachment:fixed;
-    background-position: center -290px;
+    background-position: center -340px;
     background-color: rgb(0, 0, 0);
 
 }
-div {
+.navegacion{
+    height: 735px;
+    width: 66px;
+    background-color: aliceblue;
+    display: block;
+    
+}
+.botones {
+   display:inline;
+}
+header {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15pt;
+    text-align: left;
+    padding: 0px 40px;
+    display: inline;
+}
+ .central{
     margin: 100px auto;
     width: 853.850px; 
     height: 11311.5px;
@@ -18,17 +35,20 @@ div {
     padding-left: 36px;
     font-family: 'Arial', sans-serif; 
     color: white;
-    background-color: #0e191a;    
+    background-color: #0e191a;  
+    display:flexbox;  
         }
 #dicho{
    
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 18px;
     text-align: left;
+    display: inline;
 }
 #dicho2{
     font-size: 15px;
     text-align: left;
+    display: flex;
 }
 .intros{ 
     width: 250px;
